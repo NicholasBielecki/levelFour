@@ -1,0 +1,127 @@
+nav{
+      display: flex;
+      justify-content: space-evenly;
+  margin: 5px;
+  border-bottom: 3px solid black;
+  background-color: aliceblue;
+}
+
+
+
+h5{
+  text-align: center;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+i{
+  color: darkblue;
+}
+
+/*Home Component*/
+.homeMainDiv{
+  background: radial-gradient(circle, rgba(42,14,14,1) 50%, rgba(7,4,203,1) 100%);
+  color: salmon;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.largeFont{
+  font-size: xx-large;
+}
+.mediumFont{
+  font-size: larger;
+}
+.smallFont{
+  font-size: medium;
+}
+
+/*Search Component*/
+
+.searchMainDiv{
+  background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.searchDisplay{
+  border-bottom: 3px dashed green;
+  border-top: 3px dashed green;
+  padding: 10px;
+  margin: 10px;
+  height: 50%;
+  width: 50vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+/*List Component*/
+
+.listMainDiv{
+  background-color: goldenrod;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.listDiv{
+  padding: 10px;
+  margin: 10px;
+  height: 50%;
+  width: 50vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.blackBorder{
+  border-bottom: 3px dashed black;
+  border-top: 3px dashed black;
+}
+
+.redBorder{
+  border-bottom: 3px dashed red;
+  border-top: 3px dashed red;
+}
+
+
+/*Footer*/
+
+footer{
+  background-color: aliceblue;
+  color: darkblue;
+  padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fontAwesome{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+i:hover{
+  opacity: 0.2;
+}
+
+
+@media only screen and (min-height: 400px) {
+  .homeMainDiv{
+    background: radial-gradient(circle, rgba(42,14,14,1) 50%, rgba(7,4,203,1) 100%);
+    color: salmon;
+    height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+}

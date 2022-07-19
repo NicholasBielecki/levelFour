@@ -1,0 +1,57 @@
+.centerBox{
+    display: flex;
+border: 2px solid black;
+}
+
+.header{
+    position: relative;
+    left: 37%;
+}
+
+
+
+
+
+.display{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.backgroundDiv{
+    height: 100%;
+    width: 100%;
+}
+
+.textArea{
+    margin: 10px;
+    width: 95%;
+    height: 50px;
+}
+
+.displayButton{
+   position: relative;
+   left: 10px;
+}
+
+
+.options{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.optionsHeader{
+    position: relative;
+    left: 45%;
+}
+
+.colorDiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.numberInput{
+    width: 50px;
+    margin: 5px;
+}
+

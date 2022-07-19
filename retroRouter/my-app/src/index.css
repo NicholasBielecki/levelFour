@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+margin: 5px;
+}
+
+.mainContent{
+margin: 10px;
+background-color: yellow;
+height: 80vh;
+width: 100vw;
+}
+
+.template{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+
+img{
+  height: 30vh;
+  width: 30vw;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+    margin: 5px;
+}
